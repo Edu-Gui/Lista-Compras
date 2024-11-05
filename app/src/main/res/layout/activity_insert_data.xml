@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_client_name"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Nome do Cliente" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Número de Telefone" />
+
+            <EditText
+                android:id="@+id/et_product"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Produto" />
+
+            <EditText
+                android:id="@+id/et_value"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Valor" />
+
+            <EditText
+                android:id="@+id/et_payment_method"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Forma de Pagamento" />
+
+            <EditText
+                android:id="@+id/et_payment_date"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Data de Pagamento" />
+
+            <EditText
+                android:id="@+id/et_next_payment_date"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Próxima Data de Pagamento" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Salvar" />
+
+</LinearLayout>
